@@ -72,7 +72,8 @@ function App() {
     <div 
       className="h-screen w-full bg-cover bg-center bg-fixed font-sans"
       style={{ 
-        backgroundImage: "url('/background.jpg')",
+        // Modification ici pour que l'image de fond fonctionne sur GitHub Pages
+        backgroundImage: `url(${import.meta.env.BASE_URL}background.jpg)`,
         margin: 0,
         padding: '40px 20px',
         display: 'flex',
