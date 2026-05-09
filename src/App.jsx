@@ -103,7 +103,7 @@ function App() {
 
       <div style={{ ...styleCardBase, maxWidth: '450px', marginBottom: '2rem' }}>
         <label style={{ display: 'block', textAlign: 'center', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '15px', opacity: 0.8 }}>
-          Ton identifiant
+          Ton pseudo
         </label>
         <input 
           type="text" 
